@@ -1,0 +1,30 @@
+.flex-container-nav{
+    display:flex; 
+    height: 50px;
+    background:darkblue;
+    border-radius:5px;
+}
+
+
+
+.flex-col-3 {
+    flex-grow: 3;
+    background:whitesmoke;
+}
+
+.flex-col-6 {
+    flex-grow: 6;
+}
+
+.inner-container {
+    margin-top: 2px;
+    display: flex;
+    background: tomato;
+    height: 200px;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: cursive;
+    font-size: 25px;
+}
